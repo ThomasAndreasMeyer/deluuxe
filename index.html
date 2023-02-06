@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Thomas Meyer">
+    <meta robots="follow, index">
+    <title>Senioren Management und Coaching Deluxe</title>
+    <link rel="icon" type="image/x-icon" href="#">
+    <style>
+       #p {
+            line-height: 14px;
+            background: url(images/Logo2\ dunkel.png);
+            -webkit-background-clip: text;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
+            background-size: cover;
+            background-position: center;
+        }
+        #cs {
+            line-height: 14px;
+             background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(109, 73, 239) 100%);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
+            background-size: cover;
+            background-position: center;
+        }
+       /* Add some style to the banner */
+       .banner {
+          height: 500px; /* Set the height of the banner */
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Logo2 dunkel.png'); /* Add a gradient and a background image to the banner */
+          background-size: cover; /* Cover the entire banner with the background image */
+          background-position: center; /* Center the background image */
+          display: flex; /* Make the banner a flex container */
+          align-items: center; /* Center the content vertically */
+          justify-content: center; /* Center the content horizontally */
+          font-size: 48px; /* Set the font size of the text */
+          color: white; /* Make the text white */
+          text-align: center; /* Center the text */
+        }
+    
+        /* Add some parallax effect to the banner */
+        .banner {
+          background-attachment: fixed; /* Fix the background image to the viewport */
+          background-position: center; /* Center the background image */
+          background-repeat: no-repeat; /* Do not repeat the background image */
+          background-size: cover; /* Cover the entire banner with the background image */
+        }
+      .transition {
+        transition-property: max-height;
+  transition-duration: 750ms;
+  transition-timing-function: linear;
+  transition-delay: 0ms;
+      }
+        .transitionShort {
+          transition: color 1.5s linear 0s;
+        }
+        .game img {
+  cursor: pointer;
+                 }
+
+                 /* Main Styles */
+body {
+  min-width: 300px;
+  background-color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.button {
+ position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #34B3A0;
+  color: #fff;
+}
+
+.button span,
+.button .icon {
+  position: absolute;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.button span {
+  width: 72%;
+  left: 0px;
+  line-height: inherit;
+  font-size: 22px;
+}
+
+.button .icon {
+  right: 0;
+  width: 28%;
+}
+
+.button .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 200px;
+  background-color: #1A7B72;
+}
+
+.button:hover span {
+  left: -72%;
+}
+
+.button:hover .icon {
+  width: 100%;
+}
+
+.button:hover .icon .fa {
+  font-size: 45px;
+}
+.button span,
+.button div,
+.button i {
+  transition: width 750ms ease-in 200ms, left 500ms ease-out 450ms, font-size 950ms linear;
+}
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+
+
+
+    <body>
+  <!-- Navbar-->
+  <nav class=" navbar fixed-top navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+        <a href="#"
+        class="navbar-brand mb-0 h1">
+            <img class="d-inline-block align-top img-fluid" src="images/Logo webseite.png" alt="">
+            deluxe
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Features
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="dropdown-item"> <a href="#"> Item1</a></li>
+                        <li class="dropdown-item"> <a href="#"> Item12</a></li>
+                        <li class="dropdown-item"> <a href="#"> Item13</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        Pricing
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <form class="d-flex" action="">
+            <input type="text" class="form-control me-2" >
+            <button type="submit" class="btn btn-outline-secondary">Search</button>
+        </form>
+
+    </div>
+</nav>
+
+
+ <!--section-->
+ <section>
+  <div class="container ">
+   <div class="row" id="p">        
+       <div class="col-md" id="übermich">
+               <h2 class="h2"> Über mich</h2>
+               <p class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum. Nunc id cursus metus aliquam eleifend mi in nulla. Nunc vel risus commodo viverra maecenas accumsan. Mollis nunc sed id semper risus in hendrerit gravida. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Orci eu lobortis elementum nibh tellus molestie nunc non. Neque aliquam vestibulum morbi blandit. Enim praesent elementum facilisis leo vel fringilla est. Diam sit amet nisl suscipit. Arcu vitae elementum curabitur vitae nunc sed velit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Platea dictumst vestibulum rhoncus est. Enim neque volutpat ac tincidunt vitae semper quis lectus. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. A erat nam at lectus urna duis convallis. A iaculis at erat pellentesque adipiscing.
+
+                Facilisi etiam dignissim diam quis enim lobortis scelerisque. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Commodo nulla facilisi nullam vehicula. Senectus et netus et malesuada. Facilisi nullam vehicula ipsum a arcu. Ut ornare lectus sit amet est placerat in egestas. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Integer quis auctor elit sed vulputate. Vulputate ut pharetra sit amet aliquam id diam. Et malesuada fames ac turpis egestas maecenas pharetra. In ante metus dictum at tempor commodo. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque.
+                
+                Semper eget duis at tellus at urna condimentum. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Massa enim nec dui nunc mattis enim ut. Maecenas sed enim ut sem viverra. Nec tincidunt praesent semper feugiat nibh sed. Eros in cursus turpis massa tincidunt dui. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Dignissim convallis aenean et tortor at risus. Eu ultrices vitae auctor eu augue ut. Aliquam sem fringilla ut morbi tincidunt.
+                
+                Adipiscing enim eu turpis egestas pretium. Vel risus commodo viverra maecenas accumsan. Nisl vel pretium lectus quam. Odio euismod lacinia at quis risus sed vulputate odio. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Purus in mollis nunc sed id semper risus in. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Massa ultricies mi quis hendrerit dolor.
+                
+                Praesent elementum facilisis leo vel fringilla. Augue eget arcu dictum varius duis at consectetur lorem. Tortor dignissim convallis aenean et tortor at risus. Nunc id cursus metus aliquam eleifend mi in nulla. Amet dictum sit amet justo donec enim diam vulputate ut. Sagittis purus sit amet volutpat consequat. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Dui accumsan sit amet nulla facilisi morbi tempus. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Fermentum et sollicitudin ac orci phasellus egestas tellus. Tincidunt tortor aliquam nulla facilisi cras fermentum odio. Id interdum velit laoreet id donec ultrices tincidunt. Molestie a iaculis at erat. Nunc sed augue lacus viverra vitae congue eu. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.
+              </p>
+             </div>
+          </div>
+         </div>
+</section>
+
+
+<!--Main-->
+<main>
+  <!-- Add the banner to the page -->
+  <div class="banner">
+    <h1 class="h1">de Luuxe Management</h1>
+</div>
+<div class="border border-4" id="cs">
+   <div class="text-white text-center" >
+     <h2>de Luuxe Management</h2>
+    
+        <br><br>
+        <p class="fs-3"> Ich helfe Ihnen dabei, Ihr Leben zu genießen. <br> <br><br> Dabei arbeite ich eng mit Ihren zusammen</p>
+     </p>
+    </div>
+</div>
+
+</main>
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="row-cols-auto">
+  <img class=" img-fluid" src="images/Logo2 dunkel.png" alt="">
+</div>
+    <div class="row-cols-auto">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum. Nunc id cursus metus aliquam eleifend mi in nulla. Nunc vel risus commodo viverra maecenas accumsan. Mollis nunc sed id semper risus in hendrerit gravida. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Orci eu lobortis elementum nibh tellus molestie nunc non. Neque aliquam vestibulum morbi blandit. Enim praesent elementum facilisis leo vel fringilla est. Diam sit amet nisl suscipit. Arcu vitae elementum curabitur vitae nunc sed velit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Platea dictumst vestibulum rhoncus est. Enim neque volutpat ac tincidunt vitae semper quis lectus. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. A erat nam at lectus urna duis convallis. A iaculis at erat pellentesque adipiscing.
+
+        Facilisi etiam dignissim diam quis enim lobortis scelerisque. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Commodo nulla facilisi nullam vehicula. Senectus et netus et malesuada. Facilisi nullam vehicula ipsum a arcu. Ut ornare lectus sit amet est placerat in egestas. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Integer quis auctor elit sed vulputate. Vulputate ut pharetra sit amet aliquam id diam. Et malesuada fames ac turpis egestas maecenas pharetra. In ante metus dictum at tempor commodo. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque.
+        
+        Semper eget duis at tellus at urna condimentum. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Massa enim nec dui nunc mattis enim ut. Maecenas sed enim ut sem viverra. Nec tincidunt praesent semper feugiat nibh sed. Eros in cursus turpis massa tincidunt dui. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Dignissim convallis aenean et tortor at risus. Eu ultrices vitae auctor eu augue ut. Aliquam sem fringilla ut morbi tincidunt.
+        
+        Adipiscing enim eu turpis egestas pretium. Vel risus commodo viverra maecenas accumsan. Nisl vel pretium lectus quam. Odio euismod lacinia at quis risus sed vulputate odio. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Purus in mollis nunc sed id semper risus in. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Massa ultricies mi quis hendrerit dolor.
+        
+        Praesent elementum facilisis leo vel fringilla. Augue eget arcu dictum varius duis at consectetur lorem. Tortor dignissim convallis aenean et tortor at risus. Nunc id cursus metus aliquam eleifend mi in nulla. Amet dictum sit amet justo donec enim diam vulputate ut. Sagittis purus sit amet volutpat consequat. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Dui accumsan sit amet nulla facilisi morbi tempus. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Fermentum et sollicitudin ac orci phasellus egestas tellus. Tincidunt tortor aliquam nulla facilisi cras fermentum odio. Id interdum velit laoreet id donec ultrices tincidunt. Molestie a iaculis at erat. Nunc sed augue lacus viverra vitae congue eu. Vitae tortor condimentum lacinia quis vel eros donec ac odio. Platea dictumst vestibulum rhoncus est pellentesque elit. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.</p>
+    </div>
+  </div>
+</div>
+
+   <section>   
+  <div class="text-center m-5">
+    <a role="button" class="btn button btn-dark" href="https://api.whatsapp.com/send?phone=+4915206098888&text=Hallo Kevin, ich möchte mehr Informationen." target="_blank">
+     <span> Vereinbare hier deine kostenlose Erstberatung.</span>    <div class="icon">
+      <i class="fa fa-arrow-down"></i>
+    </div></a>
+  </div>
+  </section>
+   <!-- footer -->
+    <footer class="bg-dark">
+      <div id="impressum" class="d-flex justify-content-center mt-5 row-cols-auto container-md">
+        <a href="Impressum.html">Impressum</a>&nbsp;•&nbsp;
+         <a href="Datenschutzerklärung.html">Datenschutz</a>
+         </div>
+          <div id="impressum" ></div>
+          <p class="text-center text-white">2023 &copy;KIPGmbH &nbsp;•&nbsp; Alle Rechte vorbehalten</p>
+      </div>
+    </footer>
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
